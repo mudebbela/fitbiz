@@ -1,0 +1,43 @@
+=============== Apr 8, 2022 (EDT) ===============
+10:54:53.193332 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:54:53.216291 db@open opening
+10:54:53.217242 version@stat F·[] S·0B[] Sc·[]
+10:54:53.219067 db@janitor F·2 G·0
+10:54:53.219140 db@open done T·2.790829ms
+10:54:53.221025 db@close closing
+10:54:53.221101 db@close done T·72.617µs
+=============== Apr 8, 2022 (EDT) ===============
+10:54:57.702412 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:54:57.705077 version@stat F·[] S·0B[] Sc·[]
+10:54:57.705133 db@open opening
+10:54:57.705273 journal@recovery F·1
+10:54:57.709275 journal@recovery recovering @1
+10:54:57.736595 memdb@flush created L0@2 N·10 S·596B "H\xfb\xb8..+\xaaY,v3":"r\x00\x00..+\xaaY,v5"
+10:54:57.739174 version@stat F·[1] S·596B[596B] Sc·[0.25]
+10:54:57.770137 db@janitor F·3 G·0
+10:54:57.770212 db@open done T·65.056945ms
+=============== Apr 11, 2022 (EDT) ===============
+16:49:35.458446 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:49:35.460111 version@stat F·[1] S·596B[596B] Sc·[0.25]
+16:49:35.460147 db@open opening
+16:49:35.460222 journal@recovery F·1
+16:49:35.463493 journal@recovery recovering @3
+16:49:35.528729 memdb@flush created L0@5 N·19618 S·1011KiB "Dat..ion,v12":"unc..own,v18"
+16:49:35.535010 version@stat F·[2] S·1012KiB[1012KiB] Sc·[0.50]
+16:49:35.545407 db@janitor F·4 G·0
+16:49:35.545446 db@open done T·85.278035ms
+16:49:37.476618 db@close closing
+16:49:37.476725 db@close done T·107.374µs
+=============== Apr 11, 2022 (EDT) ===============
+16:53:04.137289 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:53:04.137444 version@stat F·[2] S·1012KiB[1012KiB] Sc·[0.50]
+16:53:04.137468 db@open opening
+16:53:04.137531 journal@recovery F·1
+16:53:04.139577 journal@recovery recovering @6
+16:53:04.144301 memdb@flush created L0@8 N·4 S·294B "Las..ock,v19631":"unc..own,v19633"
+16:53:04.149305 version@stat F·[3] S·1012KiB[1012KiB] Sc·[0.75]
+16:53:04.158013 db@janitor F·5 G·0
+16:53:04.158041 db@open done T·20.562679ms
+=============== Apr 12, 2022 (EDT) ===============
+14:19:22.126140 db@close closing
+14:19:22.126967 db@close done T·1.444671ms
